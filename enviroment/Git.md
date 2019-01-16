@@ -89,3 +89,9 @@ git push orgin:xxx
 ```
 git merge xxx
 ```
+
+### 刪除所有本地端分支
+
+```
+git branch --merged | grep -v \* | xargs git branch -D 
+```
