@@ -95,3 +95,12 @@ git merge xxx
 ```
 git branch --merged | grep -v \* | xargs git branch -D 
 ```
+
+
+### 刪除專案的submoule
+
+```
+git rm -fr (relative path)
+git rm .gitmodules -f
+vi .git/config //remove relatetive repo
+```
