@@ -86,3 +86,9 @@ npm update xxx
 ```
 npm audit fix
 ```
+
+### 安裝非npm上的套件
+```
+git+https://xxxxxx.git
+git+ssh://xxxxxx.git
+```
