@@ -1,0 +1,26 @@
+# Docker
+
+容器化管理工具
+
+- [官方網站](https://www.docker.com/)
+
+## 安裝 Docker
+
+```
+brew install docker
+```
+
+## Docker 常用指令
+
+### 刪除所有容器
+
+```
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+```
+
+### 刪除所有映像檔
+
+```
+docker rmi $(docker images -q)
+```
