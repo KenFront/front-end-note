@@ -105,3 +105,9 @@ git rm -fr (relative path)
 vi .git/config //remove relatetive repo
 git commit
 ```
+
+### 調整檔案名稱大小寫
+
+```
+git mv hello.txt Hello.txt
+```
