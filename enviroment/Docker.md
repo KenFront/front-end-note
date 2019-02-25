@@ -15,12 +15,21 @@ brew install docker
 ### 刪除所有容器
 
 ```
+# bash
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
+
+# fish shell
+docker stop (docker ps -a -q)
+docker rm (docker ps -a -q)
 ```
 
 ### 刪除所有映像檔
 
 ```
+# bash
 docker rmi $(docker images -q)
+
+# fish shell
+docker rmi (docker images -q)
 ```
