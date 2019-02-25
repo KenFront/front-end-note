@@ -35,3 +35,9 @@ history --clear
 ## Fish Shell快捷鍵
 
 ### ⇧ + Tab(搜尋以及顯示目前可以使用的指令，npm以及git皆可)
+
+## Fish Shell(after v3.0.0) Exit後，bash看不到字的bug
+```
+#bash
+reset
+```
