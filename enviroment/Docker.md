@@ -33,3 +33,12 @@ docker rmi $(docker images -q)
 # fish shell
 docker rmi (docker images -q)
 ```
+
+### 刪除舊的映像檔
+
+```# bash
+docker rmi $(docker images -q -f dangling=true)
+
+# fish shell
+docker rmi (docker images -q -f dangling=true)
+```
