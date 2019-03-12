@@ -36,9 +36,17 @@ docker rmi (docker images -q)
 
 ### 刪除舊的映像檔
 
-```# bash
+```
+# bash
 docker rmi $(docker images -q -f dangling=true)
 
 # fish shell
 docker rmi (docker images -q -f dangling=true)
+```
+
+### 使用docker node container開發
+
+```
+// version: dubnium, expose port: 80, server port: 3000
+docker run --rm -it --name node-docker -v $PWD:/usr/src -w /usr/src -p 80:3000 -u node node:dubnium /bin/bash
 ```
