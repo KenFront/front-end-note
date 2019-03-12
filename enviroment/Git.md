@@ -111,3 +111,10 @@ git commit
 ```
 git mv hello.txt Hello.txt
 ```
+
+### 刪除已上傳的檔案
+
+```
+// example .DS_Store
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+```
