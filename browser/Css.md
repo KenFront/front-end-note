@@ -38,14 +38,6 @@
 }
 ```
 
-### 解決Safari，滑動問題
-
-```
-{
-  -webkit-overflow-scrolling: auto;
-}
-```
-
 ### 解決Safari，彈出輸入框，編輯文字符號跑版
 
 ```
@@ -67,5 +59,13 @@ body {
 ```
 {
   user-select: none;
+}
+```
+
+### 移除outline
+
+```
+{
+  outline: none;
 }
 ```
