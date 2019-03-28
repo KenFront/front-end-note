@@ -64,3 +64,16 @@ rm -rf hello
 ```bash
 mv hello.js ../world.js
 ```
+
+
+### 查看檔案全部內容
+
+```bash
+cat hello.js
+```
+
+### 查看檔案最後部分內容
+
+```bash
+tail hello.js
+```
