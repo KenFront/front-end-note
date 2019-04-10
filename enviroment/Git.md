@@ -18,12 +18,6 @@ brew install git
 git add .
 ```
 
-### 將所有檔案加入提交
-
-```
-git add .
-```
-
 ### 提交此次變更
 
 ```
@@ -46,6 +40,24 @@ git status
 
 ```
 git log
+```
+
+### 暫存目前變更
+
+```
+git stash
+```
+
+### 回復上次暫存變更
+
+```
+git stash 
+```
+
+### 清除所有暫存變更
+
+```
+git stash clear
 ```
 
 ### 捨棄目前變更
