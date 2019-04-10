@@ -40,6 +40,12 @@ touch hello.js
 cp ./hello.js ./world.js
 ```
 
+### 複製目錄
+
+```bash
+cp -a ./src/. ../dist/
+```
+
 ### 刪除檔案
 
 ```bash
