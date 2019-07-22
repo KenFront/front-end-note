@@ -21,12 +21,7 @@ touch ~/.bash_profile
 ### 修改終端機設定檔
 
 ```
-source /usr/local/opt/nvm/nvm.sh
-# 讀取nvm設定資源
-​
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
-#設定nvm路徑
-​
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 #使用nvm
 ```
@@ -42,12 +37,7 @@ nvm install lts/dubnium
 ### 修改終端機設定(~/.bash_profile)
 
 ```
-source /usr/local/opt/nvm/nvm.sh
-# 讀取nvm設定資源
-​
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
-#設定nvm路徑
-​
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 #使用nvm
 
