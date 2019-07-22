@@ -21,9 +21,10 @@ touch ~/.bash_profile
 ### 修改終端機設定檔
 
 ```
+export NVM_DIR="$HOME/.nvm"
 source /usr/local/opt/nvm/nvm.sh
-export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 #使用nvm
 ```
 
@@ -38,9 +39,10 @@ nvm install lts/dubnium
 ### 修改終端機設定(~/.bash_profile)
 
 ```
+export NVM_DIR="$HOME/.nvm"
 source /usr/local/opt/nvm/nvm.sh
-export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 #使用nvm
 
 nvm use lts/dubnium
