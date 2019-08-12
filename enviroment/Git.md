@@ -130,3 +130,9 @@ git mv hello.txt Hello.txt
 // example .DS_Store
 find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 ```
+
+### 看git commit 紀錄
+
+```
+git log --oneline --graph
+```
