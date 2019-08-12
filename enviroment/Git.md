@@ -93,7 +93,7 @@ git branch -d xxx
 ### 移除遠端分支
 
 ```
-git push orgin:xxx
+git push orgin :xxx
 ```
 
 ### 合併其他分支至目前分支
