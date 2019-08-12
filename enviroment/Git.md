@@ -136,3 +136,10 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 ```
 git log --oneline --graph
 ```
+### 同步fork專案
+
+```
+git remote add upstream git://xxx.git
+git fetch upstream
+git pull upstream master
+```
