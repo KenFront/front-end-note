@@ -51,7 +51,7 @@ git stash
 ### 回復上次暫存變更
 
 ```
-git stash 
+git stash pop
 ```
 
 ### 清除所有暫存變更
@@ -100,6 +100,13 @@ git push orgin :xxx
 
 ```
 git merge xxx
+```
+
+
+### 合併其他分支至目前分支，不增加commit
+
+```
+git merge xxx --no-commit --no-ff
 ```
 
 ### 刪除所有已合併的本地端分支
