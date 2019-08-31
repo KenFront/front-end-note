@@ -147,6 +147,8 @@ git log --oneline --graph
 
 ```
 git remote add upstream git://xxx.git
+
 git fetch upstream
+
 git pull upstream master
 ```
