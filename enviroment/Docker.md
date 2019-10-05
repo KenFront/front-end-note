@@ -24,6 +24,12 @@ docker stop (docker ps -a -q)
 docker rm (docker ps -a -q)
 ```
 
+### 刪除所有未啟動的容器
+
+```
+docker container prune
+```
+
 ### 刪除所有映像檔
 
 ```
