@@ -28,7 +28,7 @@ docker rm (docker ps -a -q)
 
 ```
 # bash
-docker rmi $(docker images -q)
+docker image prune
 
 # fish shell
 docker rmi (docker images -q)
@@ -37,11 +37,7 @@ docker rmi (docker images -q)
 ### 刪除舊的映像檔
 
 ```
-# bash
-docker rmi $(docker images -q -f dangling=true)
-
-# fish shell
-docker rmi (docker images -q -f dangling=true)
+docker image prune
 ```
 
 ### 使用docker node container開發
