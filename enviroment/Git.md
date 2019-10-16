@@ -66,6 +66,13 @@ git stash clear
 git checkout -f
 ```
 
+### 將目前分支同步遠端狀態
+
+```
+git fetch --all
+git reset --hard origin/xxx
+```
+
 ### 切換分支
 
 ```
