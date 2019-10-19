@@ -6,10 +6,13 @@ Node.js 版本管理工具
 
 ## 安裝 Nvm
 
-### 使用Homebrew安裝
+### 使用Git安裝
 
 ```
-brew install nvm
+cd ~/
+git clone https://github.com/nvm-sh/nvm.git .nvm
+cd ~/.nvm
+git checkout v0.35.0
 ```
 
 ### 新增終端機設定檔
