@@ -33,10 +33,10 @@ source /usr/local/opt/nvm/nvm.sh
 
 ## 使用Nvm
 
-### 安裝Node.js(v10.x.x)
+### 安裝Node.js(v12.x.x)
 
 ```
-nvm install lts/dubnium
+nvm install lts/Erbium
 ```
 
 ### 修改終端機設定(~/.bash_profile)
@@ -48,8 +48,8 @@ source /usr/local/opt/nvm/nvm.sh
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 #使用nvm
 
-nvm use lts/dubnium
-#使用node v10.x.x
+nvm use lts/Erbium
+#使用node v12.x.x
 ```
 
 ### 確認Node安裝成功
