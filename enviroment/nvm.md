@@ -39,16 +39,10 @@ source /usr/local/opt/nvm/nvm.sh
 nvm install lts/Erbium
 ```
 
-### 修改終端機設定(~/.bash_profile)
+### 修改nvm預設node版本(v12.x.x)
 
 ```
-export NVM_DIR="$HOME/.nvm"
-source /usr/local/opt/nvm/nvm.sh
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-#使用nvm
-
-nvm use lts/Erbium
+nvm alias default lts/Erbium
 #使用node v12.x.x
 ```
 
