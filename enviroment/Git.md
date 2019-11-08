@@ -119,7 +119,7 @@ git merge xxx --no-commit --no-ff
 ### 刪除所有已合併的本地端分支
 
 ```
-git branch --merged | grep -v \* | xargs git branch -D 
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
 ```
 
 
