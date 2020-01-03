@@ -32,6 +32,12 @@ fish_config
 history --clear
 ```
 
+### 使用環境變數
+
+```
+env x=a y=b npm start
+```
+
 ## Fish Shell快捷鍵
 
 ### ⇧ + Tab(搜尋以及顯示目前可以使用的指令，npm以及git皆可)
