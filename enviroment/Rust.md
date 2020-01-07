@@ -67,10 +67,18 @@ cargo check
 cargo fmt
 ```
 
+### 更新Cargo.lock
+
+```
+cargo update
+```
+
 ### 安裝專案相依性套件管理指令工具
 
 ```
 cargo install cargo-edit
 // then
-cargo add xxx
+cargo add xxx // add lib to Cargo.toml
+cargo rm xxx // remove lib from Cargo.toml
+cargo upgrade xxx // update lib in Cargo.toml
 ```
