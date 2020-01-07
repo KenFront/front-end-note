@@ -67,3 +67,10 @@ cargo check
 cargo fmt
 ```
 
+### 安裝專案相依性套件管理指令工具
+
+```
+cargo install cargo-edit
+// then
+cargo add xxx
+```
