@@ -35,9 +35,6 @@ docker container prune
 ```
 # bash
 docker image prune
-
-# fish shell
-docker rmi (docker images -q)
 ```
 
 ### 刪除舊的映像檔
