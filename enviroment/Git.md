@@ -126,7 +126,9 @@ git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
 ### 刪除專案的submoule
 
 ```
+// if only one git submodule
 git rm .gitmodules -f
+
 git rm -fr --cached (relative path) 
 vi .git/config //remove relatetive repo
 git commit
