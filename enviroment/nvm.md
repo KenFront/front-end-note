@@ -12,13 +12,13 @@ Node.js 版本管理工具
 cd ~/
 git clone https://github.com/nvm-sh/nvm.git .nvm
 cd ~/.nvm
-git checkout v0.35.0
+git checkout v0.xx.x
 ```
 
 ### 新增終端機設定檔
 
 ```
-touch ~/.bash_profile
+touch ~/.zprofile
 ```
 
 ### 修改終端機設定檔
@@ -33,17 +33,17 @@ source /usr/local/opt/nvm/nvm.sh
 
 ## 使用Nvm
 
-### 安裝Node.js(v12.x.x)
+### 安裝Node.js(v14.x.x)
 
 ```
-nvm install lts/Erbium
+nvm install lts/Fermium
 ```
 
-### 修改nvm預設node版本(v12.x.x)
+### 修改nvm預設node版本(v14.x.x)
 
 ```
-nvm alias default lts/Erbium
-#使用node v12.x.x
+nvm alias default lts/Fermium
+#使用node v14.x.x
 ```
 
 ### 確認Node安裝成功
