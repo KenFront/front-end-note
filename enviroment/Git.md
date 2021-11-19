@@ -161,3 +161,9 @@ git fetch upstream
 
 git pull upstream master
 ```
+
+### 移除 git ignore file
+
+```
+git clean -dfX
+```
